@@ -16,7 +16,7 @@ VIDEO_EXTENSIONS = {
     ".mpeg",
 }
 
-BASE_DIR = Path("/home/u22/video_server/video").resolve()
+BASE_DIR = Path("./videos").resolve()
 
 app = Flask(__name__)
 

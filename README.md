@@ -38,7 +38,7 @@ Before running the server, you need to configure the directory where your video 
 1. Open `app.py`.
 2. Locate the `BASE_DIR` variable (around line 19):
    ```python
-   BASE_DIR = Path("/home/u22/video_server/video").resolve()
+   BASE_DIR = Path("./videos").resolve()
    ```
 3. Change the path to the absolute directory on your machine that contains your video files.
 
