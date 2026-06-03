@@ -6,6 +6,7 @@ from typing import Iterable
 from flask import Flask, Response, abort, render_template, request
 
 VIDEO_EXTENSIONS = {
+    ".ts",
     ".mp4",
     ".mkv",
     ".mov",
